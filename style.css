@@ -1,0 +1,358 @@
+.columns {
+    column-width: 100%;
+    column-gap: 30px;
+}
+
+.columns figure {
+    display: inline-block;
+    width: 107px;
+    height: 70px;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.columns figure img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+
+.logo-img {
+    width: 250px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 230px;
+}
+
+fieldset {
+    border: none
+}
+
+.search {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 39px;
+    text-indent: 15px;
+    vertical-align: top;
+    border-width: 1px;
+    border: 1px solid #c5c5c5;
+}
+
+input[type="submit"] {
+    height: 39px;
+    width: 39px;
+    background: #333;
+    vertical-align: top;
+    margin-left: -5px;
+    border-width: 1px;
+    background-image: url(https://img.woowahan.com/www/common/btn-srch.png);
+    background-position: center;
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+.loc {
+    width: 200px;
+    height: 37px;
+    border: 1px solid #c5c5c5;
+    line-height: 37px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.loc-btn {
+    height: 100%;
+    width: 37px;
+    float: right;
+    border-left: 1px solid #c5c5c5;
+    cursor: pointer;
+    background-image: url(https://img.woowahan.com/www/common/btn-set-loc.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.cat {}
+
+.cat-prop,
+.cat-val {
+    display: inline-block;
+}
+
+.cat-prop {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.cat-val {
+    margin-top: 0
+}
+
+.cat-val-li {
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.cat-val-li::after {
+    content: " |"
+}
+
+.cat-val-li:last-child::after {
+    content: ""
+}
+
+.login-btns {
+    float: right;
+    margin-top: 10px
+}
+
+.login-btns button {
+    border: none;
+    background: white;
+    font-size: 12px;
+    color: #aeaeae;
+    cursor: pointer;
+}
+
+.login-btns span {
+    font-size: 12px;
+    color: #aeaeae;
+}
+
+.footer-awards {
+    padding: 0;
+}
+
+.footer-awards li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer-awards li span {
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-awards-img {
+    padding: 15px;
+    background-position-x: -300px;
+    background-position-y: -450px;
+}
+
+.smart-tv-app {
+    background-image: url(https://img.woowahan.com/www/title/tl-labels.png);
+}
+
+.kisa {
+    background-image: url(https://img.woowahan.com/www/title/tl-labels.png);
+    background-repeat: no-repeat;
+    background-position: 0 -450px;
+    padding: 15px 25px
+}
+
+.smart-app-award {
+    background-position: -200px -450px;
+    background-image: url(https://img.woowahan.com/www/title/tl-labels.png);
+    padding: 16px;
+}
+
+.jisick {
+    background-position: -100px -450px;
+    background-image: url(https://img.woowahan.com/www/title/tl-labels.png);
+    padding: 18px;
+}
+
+.notice-title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.notice-title .title-btn {
+    padding: 7px 10px 4px;
+    font-size: 11px;
+    border: 1px solid gray;
+    height: 20px;
+    float: right;
+    display: inline-block;
+    text-align: center;
+}
+
+.notice-title .top2-title-btn1 {
+    padding: 7px 10px 4px;
+    font-size: 11px;
+    border: 1px solid gray;
+    height: 20px;
+    float: right;
+    display: inline-block;
+    text-align: center;
+    margin-left: 7px;
+}
+
+.notice-title .top2-title-btn2 {
+    padding: 7px 10px 4px;
+    font-size: 11px;
+    border: 1px solid gray;
+    height: 20px;
+    float: right;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.notice-top1-box .top1-title {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.notice-top1-box .top1-content {
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+#date {
+    float: right;
+    padding-top: 7px;
+    font-size: 12px;
+    color: gray;
+}
+
+.notice-top3-box .top3-title {
+    font-size: 15px;
+    font-weight: bold;
+    width: 40%;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.notice-top3-box .top3-content {
+    margin-top: 10px;
+    font-size: 12px;
+    width: 50%;
+    color: gray;
+    display: inline-block;
+}
+
+#milk {
+    float: right;
+}
+
+.notice-top4-box .top4-title {
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.notice-top4-box .top4-content {
+    margin-top: 10px;
+    font-size: 12px;
+    width: 55%;
+    color: gray;
+    display: inline-block;
+}
+
+#card {
+    float: right;
+}
+
+.notice {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.notice-top1,
+.notice-top2,
+.notice-top3,
+.notice-top4 {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.footer-top {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-top1,
+.footer-top2,
+.footer-top3,
+.footer-top4 {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+}
+
+.footer-top3 {
+    color: #999;
+    font-size: 11px;
+    height: 50px;
+    line-height: 15px;
+}
+
+.footer-top4 {
+    height: 50px;
+    color: #999;
+    font-size: 11px;
+    height: 50px;
+}
+
+.footer-top2 {
+    height: 50px;
+    color: #999;
+    font-size: 11px;
+    height: 50px;
+}
+
+.footer-top1 ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+}
+
+.footer-top1 ul li {
+    display: inline-block;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.footer-top1 ul li::after {
+    content: " |"
+}
+
+.footer-top1 ul li:last-child::after {
+    content: ""
+}
+
+.footer-btm {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ebebeb
+}
+
+.yg-bold {
+    font-weight: bold!important;
+}
