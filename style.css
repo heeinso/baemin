@@ -85,7 +85,11 @@ input[type="submit"] {
     background-position: 0 0;
 }
 
-.cat {}
+.top {
+    margin-top: 50px;
+}
+
+
 
 .cat-prop,
 .cat-val {
